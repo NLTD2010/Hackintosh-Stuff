@@ -214,4 +214,4 @@ ${normal}
 "
 
 
-figlet DANNYVN HACKINTOSH| lolcat
+echo 'figlet DANNYVN HACKINTOSH| lolcat'
