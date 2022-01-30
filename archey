@@ -214,4 +214,4 @@ ${normal}
 "
 
 
-sudo figlet DANNYVN HACKINTOSH| lolcat
+echo sudo figlet DANNYVN HACKINTOSH| lolcat
