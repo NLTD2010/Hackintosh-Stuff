@@ -214,4 +214,4 @@ ${normal}
 "
 fi
 
-echo figlet DANNYVN HACKINTOSH| lolcat
+figlet DANNYVN HACKINTOSH| lolcat
