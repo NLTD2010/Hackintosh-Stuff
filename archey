@@ -212,5 +212,4 @@ ${BLUE#   }        ################              ${fieldlist[12]}
 ${BLUE#   }         ####     #####               ${fieldlist[13]}
 ${normal}                                      
 "
-fi
-echo figlet DANNYVN HACKINTOSH | lolcat
+
