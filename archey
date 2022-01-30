@@ -212,6 +212,6 @@ ${BLUE#   }        ################              ${fieldlist[12]}
 ${BLUE#   }         ####     #####               ${fieldlist[13]}
 ${normal}                                      
 "
-fi
+
 
 figlet DANNYVN HACKINTOSH| lolcat
