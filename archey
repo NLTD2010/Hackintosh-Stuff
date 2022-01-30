@@ -214,4 +214,4 @@ ${normal}
 "
 
 
-echo 'figlet DANNYVN HACKINTOSH| lolcat'
+sudp figlet DANNYVN HACKINTOSH| lolcat
