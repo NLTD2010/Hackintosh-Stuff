@@ -1,5 +1,5 @@
 ## logo-apple
 
 - copy this code
-> `sh -c "$(curl -fsSL https://raw.githubusercontent.com/NLTD2010/logo-apple/main/archey)"`
+> `sh -c "$(curl -fsSL https://raw.githubusercontent.com/NLTD2010/Hackintosh-Stuff/main/archey)"`
 # 🚫 DO NOT COPY MY source code
