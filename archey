@@ -17,9 +17,6 @@ do
     -o|--offline)
         opt_offline=t
       ;;
-    -td|--nltd2010)
-        td_service=t
-      ;;
     -h|--help)
       echo "Archey For macOS"
       echo
@@ -28,14 +25,13 @@ do
       echo "  -b --nocolor   Turn color off."
       echo "  -c --color     Force the color on (overrides --nocolor)."
       echo "  -o --offline   Disable the IP address check."
-      echo "  -td --nltd2010   only td can know this :)"
       exit 0
       ;;
     *)
       echo "Unknown argument: $1" 1>&2
       echo "For help, use: $0 --help" 1>&2
       exit 1
-      ;; 
+      ;;
   esac
 done
 
@@ -215,6 +211,8 @@ ${PURPLE# }      ####################            ${fieldlist[11]}
 ${BLUE#   }        ################              ${fieldlist[12]}
 ${BLUE#   }         ####     #####               ${fieldlist[13]}
 ${normal}                                      
+"
+fi
 
 echo "${GREEN#  }##############   ######      ##     ##    ###     ######  ##    ## #### ##    ## ########  #######   ######  ##     ## ";
 echo "${GREEN#  }    ####       ##      ##    ##     ##   ## ##   ##    ## ##   ##   ##  ###   ##    ##    ##     ## ##    ## ##     ## ";
@@ -224,4 +222,3 @@ echo "${RED#    }    ####       ##        ##  ##     ## ######### ##       ##  #
 echo "${PURPLE# }    ####       ##      ##    ##     ## ##     ## ##    ## ##   ##   ##  ##   ###    ##    ##     ## ##    ## ##     ## ";
 echo "${BLUE#   }     ##          ######      ##     ## ##     ##  ######  ##    ## #### ##    ##    ##     #######   ######  ##     ## ";
 echo "${normal}                                                                                                                         ";
-
